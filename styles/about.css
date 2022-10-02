@@ -1,0 +1,53 @@
+#about {
+    margin: 1rem;
+    width: 97%;
+    border: 1px solid rgb(201, 201, 255);
+    border-radius: 2rem;
+    background-color: rgb(251, 251, 255);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 60%;
+    margin: auto;
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: start;
+    margin-left: 1.5rem;
+}
+
+.learn-more-button {
+    font-size: .9rem;
+    height: 2.5rem;
+    width: 7.3rem;
+    margin-top: 2rem;
+    background-color: navy;
+    color: white;
+    border: 0px;
+    border-radius: .3rem;
+}
+
+.about-parts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image{
+    margin-right: 20rem;
+    width: 92%;
+    margin-top: -6rem;
+    height: 25rem;
+}
+
+.learn-more-button:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 15px;
+}
