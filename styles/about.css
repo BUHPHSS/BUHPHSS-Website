@@ -1,10 +1,7 @@
-#about {
-  margin: 1rem;
-  width: 97%;
-  border: 1px solid rgb(201, 201, 255);
-  border-radius: 2rem;
-  background-color: rgb(251, 251, 255);
+*{
+background-color: aliceblue;
 }
+
 
 .about-content {
   display: flex;
@@ -14,13 +11,17 @@
   margin: auto;
   margin-right: 2rem;
   margin-left: 1.5rem;
+
 }
 
 h2 {
+  text-decoration: underline;
   font-size: 3rem;
   font-family: "Ubuntu", sans-serif;
   text-align: start;
   margin-left: 1.5rem;
+ 
+  
 }
 
 .learn-more-button {
@@ -32,9 +33,11 @@ h2 {
   color: white;
   border: 0px;
   border-radius: 0.3rem;
+  cursor: pointer;
 }
 
 .about-parts {
+  color: rgb(85, 13, 100);
   display: flex;
   justify-content: space-between;
   align-items: center;
